@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/AdvenTureee/AdvenTureee@main/assets/banner.svg" width="800" alt="Header" />
+  <picture>
+    <source srcset="https://cdn.jsdelivr.net/gh/AdvenTureee/AdvenTureee@main/assets/banner.svg" type="image/svg+xml" />
+    <img src="https://cdn.jsdelivr.net/gh/AdvenTureee/AdvenTureee@main/assets/banner.svg" width="800" alt="Header" draggable="false" />
+  </picture>
 </p>
 
 <p align="center">
