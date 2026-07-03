@@ -6,8 +6,14 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=32&duration=3000&pause=400&color=FAFAF9&center=true&vCenter=true&width=420&lines=Gabriel+Mauro" alt="Typing SVG" /><br />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=600&color=A7C4D8&center=true&vCenter=true&width=520&lines=Full-Stack+Jr.;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Supabase" alt="Typing SVG" />
+  <picture>
+    <source srcset="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=32&duration=3000&pause=400&color=FAFAF9&center=true&vCenter=true&width=420&lines=Gabriel+Mauro" type="image/svg+xml" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=32&duration=3000&pause=400&color=FAFAF9&center=true&vCenter=true&width=420&lines=Gabriel+Mauro" alt="Gabriel Mauro" draggable="false" />
+  </picture><br />
+  <picture>
+    <source srcset="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=600&color=A7C4D8&center=true&vCenter=true&width=520&lines=Full-Stack+Jr.;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Supabase" type="image/svg+xml" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=600&color=A7C4D8&center=true&vCenter=true&width=520&lines=Full-Stack+Jr.;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Supabase" alt="Cargo e stack" draggable="false" />
+  </picture>
 </p>
 
 <p align="center">
@@ -33,7 +39,10 @@ Engenheiro full-stack focado em **JavaScript / TypeScript**, com especialidade e
 <p align="left">
   <a href="https://github.com/AdvenTureee/moneda"><img alt="Moneda" src="https://img.shields.io/badge/Moneda-despesas_pessoais_com_IA-4A5568?style=for-the-badge&logo=vercel&logoColor=white&labelColor=2D3748" /></a>
   &nbsp;
-  <img alt="Status" src="https://img.shields.io/badge/status-MVP_1_em_produção-2F855A?style=for-the-badge&labelColor=2D3748" />
+  <picture>
+    <source srcset="https://img.shields.io/badge/status-MVP_1_em_produção-2F855A?style=for-the-badge&labelColor=2D3748" type="image/svg+xml" />
+    <img alt="Status" src="https://img.shields.io/badge/status-MVP_1_em_produção-2F855A?style=for-the-badge&labelColor=2D3748" draggable="false" />
+  </picture>
 </p>
 
 > App de controle de gastos com IA que entende linguagem natural em português ("almoço 35 ifood") e devolve resumos que **explicam** o dinheiro, não só mostram gráficos. Pensado para o brasileiro que abandona planilha e app de finanças em duas semanas.
