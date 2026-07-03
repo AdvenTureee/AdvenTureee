@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/AdvenTureee/AdvenTureee@main/assets/glow.svg" alt="Glow" width="800" />
+  <img src="https://cdn.jsdelivr.net/gh/AdvenTureee/AdvenTureee@main/assets/waves.svg" alt="Glow" width="800" />
 </p>
 
 <p align="center">
