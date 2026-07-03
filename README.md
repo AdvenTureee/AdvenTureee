@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <em>Construo produtos web de ponta a ponta: do schema do banco ao polish do botão.</em>
+  <em>Construo produtos web de ponta a ponta, do schema do banco ao polish do botão. Utilizo IA de um jeito inteligente, construindo uma base sólida de segurança e identidade visual.</em>
 </p>
 
 <p align="center">
