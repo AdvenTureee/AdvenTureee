@@ -1,29 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
   <defs>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="45" />
-    </filter>
-    <radialGradient id="blobA" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.85" />
-      <stop offset="60%" stop-color="#1e40af" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="blobB" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0c4a6e" stop-opacity="0.85" />
-      <stop offset="60%" stop-color="#0369a1" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#0c4a6e" stop-opacity="0" />
-    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c4a6e" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0.08" />
+    </linearGradient>
   </defs>
 
-  <circle cx="200" cy="110" r="130" fill="url(#blobA)" filter="url(#blur)">
-    <animate attributeName="cx" values="200;420;200" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" />
-    <animate attributeName="cy" values="110;80;110" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" />
-    <animate attributeName="r" values="130;160;130" dur="9s" repeatCount="indefinite" />
-  </circle>
+  <rect x="16" y="16" width="768" height="188" rx="12" fill="url(#bg)" stroke="#A7C4D8" stroke-width="1.5" stroke-dasharray="3 5" />
 
-  <circle cx="600" cy="110" r="130" fill="url(#blobB)" filter="url(#blur)">
-    <animate attributeName="cx" values="600;380;600" dur="11s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" />
-    <animate attributeName="cy" values="110;140;110" dur="11s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" />
-    <animate attributeName="r" values="130;150;130" dur="11s" repeatCount="indefinite" />
-  </circle>
+  <g fill="none" stroke="#A7C4D8" stroke-width="1.2" stroke-dasharray="2 4" opacity="0.9">
+    <path d="M -40 40 Q 100 10, 200 40 T 400 40 T 600 40 T 840 40" />
+    <path d="M -40 65 Q 100 25, 200 65 T 400 65 T 600 65 T 840 65" />
+    <path d="M -40 90 Q 100 50, 200 90 T 400 90 T 600 90 T 840 90" />
+    <path d="M -40 115 Q 100 75, 200 115 T 400 115 T 600 115 T 840 115" />
+  </g>
+
+  <g fill="none" stroke="#1e3a8a" stroke-width="1.2" stroke-dasharray="2 4" opacity="0.6">
+    <path d="M -40 145 Q 100 110, 200 145 T 400 145 T 600 145 T 840 145" />
+    <path d="M -40 170 Q 100 130, 200 170 T 400 170 T 600 170 T 840 170" />
+    <path d="M -40 195 Q 100 155, 200 195 T 400 195 T 600 195 T 840 195" />
+  </g>
 </svg>
